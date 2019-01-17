@@ -4,7 +4,7 @@ import cornImage from './resources/corn.jpg'
 class Corn extends Component {
   render() {
     return (
-      <div>
+      <div class="content-container">
         <h2>CORN</h2>
         <p>I love to eat (and drink) corn all day. Here's an example of my favourite drink:</p>
         <img src={cornImage} alt="Delicious beverage (maybe also food)"/>

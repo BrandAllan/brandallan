@@ -9,6 +9,7 @@ import Home from "./Home";
 import Trains from "./Trains";
 import Tanks from "./Tanks";
 import Corn from "./Corn";
+import Strudel from "./Strudel";
 
 
 class Main extends Component {
@@ -22,12 +23,14 @@ class Main extends Component {
             <li><NavLink to="/trains">Trains</NavLink></li>
             <li><NavLink to="/tanks">Tanks</NavLink></li>
             <li><NavLink to="/corn">Corn</NavLink></li>
+            <li><NavLink to="/strudel">Corn</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/trains" component={Trains}/>
             <Route path="/tanks" component={Tanks}/>
             <Route path="/corn" component={Corn}/>
+            <Route path="/strudel" component={Strudel}/>
           </div>
         </div>
       </HashRouter>
