@@ -6,7 +6,7 @@ class LumpyDitto extends Component {
     return (
       <div class="content-container">
         <h2>Ditto</h2>
-        <h1>I have written a short haiku for the love of my life, Ditto.</h1>
+        <h3>I have written a short haiku for the love of my life, Ditto.</h3>
         <br/>
         <p>I love my ditto</p>
         <p>I love it too much - oh no</p>
