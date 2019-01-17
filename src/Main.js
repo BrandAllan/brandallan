@@ -11,6 +11,8 @@ import Tanks from "./Tanks";
 import Corn from "./Corn";
 import Strudel from "./Strudel";
 import LumpyDitto from "./LumpyDitto";
+import Brbrbrbr from "./Brbrbrbr";
+import Boop from "./Boop";
 
 
 class Main extends Component {
@@ -26,6 +28,8 @@ class Main extends Component {
             <li><NavLink to="/corn">Corn</NavLink></li>
             <li><NavLink to="/strudel">Strudel</NavLink></li>
             <li><NavLink to="/ditto">Ditto</NavLink></li>
+            <li><NavLink to="/brbrbrbr">Brbrbrbr</NavLink></li>
+            <li><NavLink to="/boop">Boop</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
@@ -34,6 +38,8 @@ class Main extends Component {
             <Route path="/corn" component={Corn}/>
             <Route path="/strudel" component={Strudel}/>
             <Route path="/ditto" component={LumpyDitto}/>
+            <Route path="/brbrbrbr" component={Brbrbrbr}/>
+            <Route path="/boop" component={Boop}/>
           </div>
         </div>
       </HashRouter>
