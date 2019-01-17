@@ -23,7 +23,7 @@ class Main extends Component {
             <li><NavLink to="/trains">Trains</NavLink></li>
             <li><NavLink to="/tanks">Tanks</NavLink></li>
             <li><NavLink to="/corn">Corn</NavLink></li>
-            <li><NavLink to="/strudel">Corn</NavLink></li>
+            <li><NavLink to="/strudel">Strudel</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
