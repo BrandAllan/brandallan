@@ -12,7 +12,7 @@ import Corn from "./Corn";
 import Strudel from "./Strudel";
 import LumpyDitto from "./LumpyDitto";
 import Brbrbrbr from "./Brbrbrbr";
-import Boop from "./Boop";
+import Shape from "./Shape";
 
 
 class Main extends Component {
@@ -29,7 +29,7 @@ class Main extends Component {
             <li><NavLink to="/strudel">Strudel</NavLink></li>
             <li><NavLink to="/ditto">Ditto</NavLink></li>
             <li><NavLink to="/brbrbrbr">Brbrbrbr</NavLink></li>
-            <li><NavLink to="/boop">Boop</NavLink></li>
+            <li><NavLink to="/shape">Shape</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
@@ -39,7 +39,7 @@ class Main extends Component {
             <Route path="/strudel" component={Strudel}/>
             <Route path="/ditto" component={LumpyDitto}/>
             <Route path="/brbrbrbr" component={Brbrbrbr}/>
-            <Route path="/boop" component={Boop}/>
+            <Route path="/shape" component={Shape}/>
           </div>
         </div>
       </HashRouter>
