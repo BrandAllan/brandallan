@@ -6,7 +6,7 @@ export default class Shape extends Component {
   }
   render () {
     return (
-      <div ref={element => this.threeRootElement = element} />
+      <div id='threeContainer' ref={element => this.threeRootElement = element} />
     );
   }
 }

@@ -39,3 +39,7 @@ ul.header li a {
 .content-container {
     overflow: hidden;
 }
+
+#threeContainer {
+    height: 500px;
+}
