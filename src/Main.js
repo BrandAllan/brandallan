@@ -14,7 +14,7 @@ import Shape from "./Shape";
 class Main extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/brandallan">
         <div>
           <nav>
             <h1>Stuff that is #BrandAllan</h1>
